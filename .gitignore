@@ -1,0 +1,20 @@
+# Segredos
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Cache de modelos / dados locais
+.cache/
+*.db
+*.sqlite
+*.log
+.idea/
+.vscode/
